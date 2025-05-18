@@ -1,4 +1,4 @@
-# ipynb
+# 静止画新環境
 
 Paperspace のノートブック作成画面で「Start from Scratch」を選択して、
 
