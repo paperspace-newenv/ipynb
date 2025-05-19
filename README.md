@@ -22,3 +22,9 @@ wget https://github.com/paperspace-newenv/ipynb/raw/main/a1111.ipynb
 wget https://github.com/paperspace-newenv/ipynb/raw/main/comfyui.ipynb
 wget https://github.com/paperspace-newenv/ipynb/raw/main/reforge.ipynb
 ```
+
+----
+
+## ComfyUI とA1111 の共存に関してです。(mush さんより)
+
+モデル（チェックポイント）、LoRa、VAE などを共有するための設定ですが、ComfyUIのインストールディレクトリにある extra_model_paths.yaml.example を extra_model_paths.yaml にリネームし、base_path: を A1111 のディレクトリパス（/notebooks/stable-diffusion-webui/）に変更するだけで簡単に設定できます。
